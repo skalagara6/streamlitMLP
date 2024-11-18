@@ -19,7 +19,7 @@ def knn_regression(data):
 
         X_train, X_test, y_train, y_test = train_test_split(features_scaled, labels, test_size=0.2, random_state=42)
 
-        model = KNeighborsRegressor(n_neighbors=5)  # You can adjust n_neighbors as needed
+        model = KNeighborsRegressor(n_neighbors=5)
         model.fit(X_train, y_train)
 
         y_pred = model.predict(X_test)
