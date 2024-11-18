@@ -32,12 +32,3 @@ def regression(data):
         print(f"R-squared Score: {r2}")
 
         return (y_test.values, y_pred)
-
-        #plt.figure(figsize=(10, 5))
-        #plt.plot(y_test.values, label="Actual Grades", color="blue")
-        #plt.plot(y_pred, label="Predicted Grades", color="red")
-        #plt.xlabel("Samples")
-        #plt.ylabel("Grades (G3)")
-        #plt.title("Actual vs Predicted Grades")
-        #plt.legend()
-        #plt.show()
